@@ -22,9 +22,6 @@ const Content = ({items})=> {
           <Typography component="div" variant="h5">
             { items.phone_name}
           </Typography>
-          <Typography variant="subtitle1" color="text.secondary" component="div">
-            PakPOS Digital Studio
-          </Typography>
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
           <Button variant="contained" endIcon={<VisibilityIcon />} onClick={() => viewGSM(items)} xs={{paddingButton: 5}}>

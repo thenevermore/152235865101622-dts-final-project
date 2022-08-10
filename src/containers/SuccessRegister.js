@@ -15,7 +15,7 @@ const SuccessRegister = () => {
                     <Grid container>
                         <Grid item>
                             <Link to="/">
-                                {"Go select your Planet!"}
+                                {"Go select your Phone!"}
                             </Link>
                         </Grid>
                     </Grid>
