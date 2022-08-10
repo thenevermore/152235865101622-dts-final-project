@@ -31,7 +31,7 @@ export default function Navbar() {
               <AppBar position="fixed" sx={{p:1}}>
                   <Toolbar>
                       <Typography variant="h6" sx={{flexGrow: 1, display: 'flex', fontFamily: 'monospace', fontWeight: 700,letterSpacing: '.3rem'}}>
-                          <IconButton style={{ color: 'inherit', textDecoration: 'inherit' }} href="/"><PublicIcon/>StarWars Library App</IconButton>
+                          <IconButton style={{ color: 'inherit', textDecoration: 'inherit' }} href="/"><PublicIcon/>GSMARENA Library App</IconButton>
                       </Typography>
 
                       {user !== null ? (
